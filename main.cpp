@@ -1,3 +1,6 @@
+/// This should be run with the working directory as the "working-directory" (included in the repository)
+/// It should be run with the single argument extended-model.xml (which is the model file)
+
 #include <QCoreApplication>
 #include <QCommandLineParser>
 
@@ -5,6 +8,8 @@
 #include "morphologyxmlreader.h"
 #include "numberofprecedinglettersiseven.h"
 #include "reduplicator.h"
+
+using namespace ME;
 
 /// convenience function to check the grammaticality of a string
 void process(const Morphology * m, const QString & str)

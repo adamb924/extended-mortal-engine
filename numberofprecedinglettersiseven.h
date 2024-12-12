@@ -5,6 +5,8 @@
 
 /// this is a demo class. If the <reduplicator> node is present, it simply reduplicates everything that has come before.
 
+using namespace ME;
+
 class NumberOfPrecedingLettersIsEven : public AbstractConstraint
 {
 public:

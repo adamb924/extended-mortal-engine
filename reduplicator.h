@@ -5,6 +5,8 @@
 
 /// this is a demo node class. If the <reduplicator> node is present, it simply reduplicates everything that has come before.
 
+using namespace ME;
+
 class Reduplicator : public AbstractNode
 {
 public:
